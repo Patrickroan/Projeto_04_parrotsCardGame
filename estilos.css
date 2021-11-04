@@ -44,10 +44,23 @@ body{
 
     margin: 10px 10px;
 }
-.passaroVerde img{
+.passaroVerde .img{
     width: 100px;
     height: 100px;
 
+}
+.remove-img{
+   display: none;
+}
+.displayNone{
+    display: none;
+}
+
+.add-img{
+    display: inline;
+    
+    width: 100px;
+    height: 100px;
 }
 
 @media (max-width: 900px){
